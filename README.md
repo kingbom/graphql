@@ -1,9 +1,9 @@
-# npm init -y
-# npm i nodemon esm dotenv graphql express apollo-server-express mongoose
-# npm start
+### npm init -y
+### npm i nodemon esm dotenv graphql express apollo-server-express mongoose
+### npm start
 
 
-# Query user profile
+### Query user profile
 ```bash
 query {
   me {
@@ -13,7 +13,7 @@ query {
 }
 ```
 
-# Query find user by id
+### Query find user by id
 {
   user(id: "5f9b0c14543f316570bd5240") {
     id,
@@ -21,14 +21,14 @@ query {
   }
 }
 
-# Query find users
+### Query find users
 ```bash
 {
   users {id, name}
 }
 ```
 
-# Create user function signup
+### Create user function signup
 ```bash
 mutation {
   signup (
