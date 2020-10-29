@@ -1,0 +1,21 @@
+{
+  "name": "graphql-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm src/index.js"
+  },
+  "keywords": [],
+  "author": "Jaruwit",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.18.2",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6"
+  }
+}
