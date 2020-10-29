@@ -26,12 +26,14 @@ query {
 ```
 
 ### Query find user by id
+```bash
 {
   user(id: "5f9b0c14543f316570bd5240") {
     id,
     name
   }
 }
+```
 
 ### Query find users
 ```bash
