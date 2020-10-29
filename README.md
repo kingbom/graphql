@@ -1,7 +1,19 @@
-### npm init -y
-### npm i nodemon esm dotenv graphql express apollo-server-express mongoose
-### npm start
+### Init project
+```bash
+npm init -y
+```
 
+### Install dependencies
+```bash
+npm i nodemon esm dotenv graphql express apollo-server-express mongoose
+```
+
+### Start appplication
+```bash
+npm start
+```
+
+### Example using graphql
 
 ### Query user profile
 ```bash
